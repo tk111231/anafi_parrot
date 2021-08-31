@@ -8,7 +8,7 @@ from olympe.messages.ardrone3.Piloting import TakeOff
 from olympe.messages.ardrone3.GPSSettingsState import HomeChanged
 
 # Connection
-drone = olympe.Drone("10.202.0.1")
+drone = olympe.Drone("192.168.42.1")
 drone.connection()
 
 # Wait for GPS fix
